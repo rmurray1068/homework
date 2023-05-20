@@ -47,3 +47,5 @@ for page in range(2, num_pages + 1):
     next_page_url = urljoin(base_url, f"?page={page}")
     data = get_data(next_page_url)
     gatherHeadlines(data, "headlines.csv")
+
+#LEETCODE CHAMP
